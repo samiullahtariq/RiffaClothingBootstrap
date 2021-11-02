@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark"></nav>
+<div class="container-fluid  axd">
+        <h3>Billing address</h3>
+    <div class="row responsive d-flex justify-content-sm-start">
+        <div class="col-md-6">
+            <form action="" class="form ">
+                <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <label for="Firstname" class="form-label" >First Name</label>
+                        <input type="text"  id="Firstname" class="form-control"  >
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <label for="Lastname" class="form-label" >Last Name</label>
+                        <input type="text"  id="Lastname" class="form-control"  >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text " id="username" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3">
+                        <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text " id="address" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3">
+                        <label for="address2" class="form-label">Address2 <span class="text-muted">(Optional)</span></label>
+                        <input type="text " id="address2" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 col-sm-6 mt-3">
+                        <label for="" class="form-label">Country</label>
+                        <select class="form-select" id="">
+                            <option class="selected">Choose..</option>
+                            <option value="1">Pak</option>
+                            <option value="2">Afgan</option>
+                            <option value="3">Indon</option>
+                        </select>
+                    </div>
+                    <div class="col-3 col-sm-6 mt-3">
+                        <label for="" class="form-label">State</label>
+                        <select class="form-select" id="">
+                            <option class="selected">Choose..</option>
+                            <option value="1">Islami</option>
+                            <option value="2">Eroupean</option>
+                            <option value="3">Rss</option>
+                        </select>
+                    </div>
+
+                    <div class="col-3  mt-3 mb-5">
+                        <label for="zip" class="form-label">Zip</label>
+                        <input type="text" id="zip">
+                        <div class="invalid-feedback">
+                            Please Provide a valid Zip.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" name="check2" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                             Shipping Address is the same as in the Billing Address
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" name="check2" type="checkbox" value="" id="flexCheckChecked" >
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Save this information for the next time.
+                            </label>
+                          </div>
+                    </div>
+                </div>
+
+                <hr>
+                <h3 class="mt-3 mb-3">Payment</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" name="radiocheck2" id="radiocheck">
+                            <label for="radiocheck" class="form-check-label">Credit Payment</label>
+                        </div> 
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input"  name="radiocheck2" id="radiocheck">
+                            <label for="radiocheck" class="form-check-label">Debit Card</label>
+                        </div> 
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input"  name="radiocheck2" id="radiocheck" checked>
+                            <label for="radiocheck" class="form-check-label">Jazz Cash</label>
+                        </div> 
+                        
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <form action="">
+                        <div class="col-md-6">
+                            <label for="formui" class="form-label">Name on Card</label>
+                            <input type="text " class="form-control" id="formui">
+                            <small class="text-muted">Full Name as displayed on Card</small>
+                           <div class="row mb-3">
+                               <div class="col-md-6">
+                                   <label for="auo" class="form-label">Expiration</label>
+                                   <input type="text" id="auo" class="form-control" >
+                               </div>
+                               <div class="col-md-6">
+                                   <label for="iopp" class="form-label">CCVV</label>
+                                   <input type="text" id="iopp" class="form-control">
+                               </div>
+                           </div>
+                           
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="formuil" class="form-label">Credit Card Number</label>
+                            <input type="number " class="form-control" id="formuil">
+                        
+                           
+                        </div>
+
+                    </form>
+                    <hr>
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contine To Check</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4 ">
+            <h4 class="d-flex justify-content-between  mb-3">
+                <span class="text-primary">Your Cart</span>
+                <span class="badge bg-primary rounded-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Produt Name</h6>
+                        <small class="text-muted">Brief Description</small>
+                    </div>
+                    <span class="text-muted">12$</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Second Produt </h6>
+                        <small class="text-muted">Brief Description</small>
+                    </div>
+                    <span class="text-muted">8$</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0" >Third Produt </h6>
+                        <small class="text-muted">Brief Description</small>
+                    </div>
+                    <span class="text-muted">5$</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Promo Code</h6>
+                        <small>Example code</small>
+                    </div>
+                    <span class="text-success">-5$</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total USD$</span>
+                    <strong>20$</strong>
+                </li>
+            </ul>
+            <form action="" class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo Code">
+                    <button class="btn btn-secondary " type="submit">Redeem</button>
+                </div>
+                <button class="btn btn-md btn-primary " id="yours">Click Here to show name</button>
+            </form>
+           
+           
+    </div>
+   
+
+    </div>
+</div>
+<footer class="text-center mt-3 mb-3">
+   &copy; All Rights Reserved &reg;
+</footer>
+<script src="../JS/index.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

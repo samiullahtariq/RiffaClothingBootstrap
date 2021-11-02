@@ -1,0 +1,12 @@
+.axd {
+  background-image: url(../IMG/img\(11\).jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.font {
+  font-weight: 800;
+  font-size: 1.5rem;
+}

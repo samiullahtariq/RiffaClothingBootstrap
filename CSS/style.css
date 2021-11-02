@@ -1,0 +1,96 @@
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 0px;
+}
+
+.id {
+  margin-left: 390px;
+}
+
+.margin {
+  margin: 15px;
+}
+.rt {
+  list-style-type: none;
+}
+.op {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ar {
+  padding-left: 33px;
+}
+
+#btntop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 99;
+  border-radius: 20%;
+  border: none;
+  outline: none;
+  background-color: green;
+}
+
+#btntop:hover {
+  color: darkblue;
+}
+.pp {
+  color: white;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.2);
+}
+
+.io {
+  text-overflow: ellipsis;
+}
+.firstone {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-image: url(../IMG/);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ytu {
+  padding-left: 148px;
+}
+
+.new {
+  padding-left: 200px;
+}
+
+.at {
+  padding-left: 15px;
+}
+
+.ax {
+  padding-top: 60px;
+}
+.yt {
+  padding-top: 60px;
+}
+
+@media (min-width: 360px) and(max-width:786px) {
+  .yt {
+    display: none;
+  }
+}
